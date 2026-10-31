@@ -162,10 +162,6 @@ scripts/                    Build submission document and clean upload archive
 Assignment3_Colab.ipynb      GPU run workflow
 ```
 
-## Submission and GitHub
-
-Suggested repository name: **fgai-assignment3-machine-translation**. Follow [UPLOAD_AND_SUBMIT.md](docs/UPLOAD_AND_SUBMIT.md). Upload the contents of this folder or the provided clean archive. Keep the repository accessible to the evaluator. The generated Word/PDF files already contain the student name and registration number; their repository link is explicitly pending. Add the real URL, rebuild the Word document, and use Word **File > Save As > PDF** after completing and reviewing all four runs. Submit that final PDF to LMS yourself.
-
 ## Sources
 
 - [Assignment dataset source](https://www.manythings.org/anki/) and [Tatoeba terms](https://tatoeba.org/en/terms_of_use).
