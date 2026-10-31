@@ -1,2 +1,0 @@
-model,bleu,chrf,training_seconds,inference_seconds,seconds_per_sentence,parameters,test_size,hardware,precision
-basic,2.2369111935871397,16.8079008502197,29.674428199999966,4.523085000226274,0.02261542500113137,2183115,200,NVIDIA GeForce RTX 3050 4GB Laptop GPU,torch.float32
