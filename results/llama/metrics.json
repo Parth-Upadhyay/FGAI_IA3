@@ -1,0 +1,36 @@
+{
+  "bleu": 0.23988397745694412,
+  "chrf": 12.263863532316979,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+  "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+  "model": "llama",
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "adaptation": "3-shot prompting, no task fine-tuning",
+  "training_seconds": null,
+  "revision": "9213176726f574b556790deb65791e0c5aa438b6",
+  "run_hash": "44b6f3b4fbf5b2962c0a54cd30adb8d8f643b38e1b9ab188196df48da84e2ed1",
+  "few_shot_ids": [
+    "fra-77122",
+    "fra-143083",
+    "fra-89246"
+  ],
+  "parameters": 1235814400,
+  "trainable_parameters": 0,
+  "inference_seconds": 303.7516434159993,
+  "seconds_per_sentence": 1.5187582170799965,
+  "sentences_per_second": 0.6584326515925791,
+  "test_size": 200,
+  "test_ids": "787fb661418064cac433b761834b1e22f31defb0299434211dd382f9d4c48f0f",
+  "hit_token_limit_count": 186,
+  "device": "cuda",
+  "hardware": "Tesla T4",
+  "precision": "torch.bfloat16",
+  "python": "3.13.16",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.1",
+    "sacrebleu": "2.5.1",
+    "numpy": "2.1.3"
+  },
+  "peak_inference_allocated_bytes": 2513213952
+}

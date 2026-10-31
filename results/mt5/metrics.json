@@ -1,0 +1,49 @@
+{
+  "bleu": 15.885193174002676,
+  "chrf": 37.76466701479885,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+  "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+  "model": "mt5",
+  "model_id": "google/mt5-small",
+  "adaptation": "full-parameter fine-tuning with Adafactor",
+  "training_seconds": 1344.055983967,
+  "best_epoch": 3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 5.732593238051022,
+      "validation_loss": 1.9314672131494357
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.420078181217938,
+      "validation_loss": 1.6687498774745984
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.9457372747375827,
+      "validation_loss": 1.5709850082712447
+    }
+  ],
+  "revision": "73fb5dbe4756edadc8fbe8c769b0a109493acf7a",
+  "run_hash": "44b6f3b4fbf5b2962c0a54cd30adb8d8f643b38e1b9ab188196df48da84e2ed1",
+  "parameters": 300176768,
+  "trainable_parameters": 300176768,
+  "inference_seconds": 43.849640721999094,
+  "seconds_per_sentence": 0.21924820360999547,
+  "sentences_per_second": 4.561040790914878,
+  "test_size": 200,
+  "test_ids": "787fb661418064cac433b761834b1e22f31defb0299434211dd382f9d4c48f0f",
+  "hit_token_limit_count": 0,
+  "device": "cuda",
+  "hardware": "Tesla T4",
+  "precision": "torch.float32",
+  "python": "3.13.16",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.1",
+    "sacrebleu": "2.5.1",
+    "numpy": "2.1.3"
+  },
+  "peak_inference_allocated_bytes": 1223474688
+}
